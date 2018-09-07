@@ -119,7 +119,7 @@ You can send create commands to the server app with the following command
 
 ```shell
 http POST http://localhost:8000/pets age=3 kind=parakeet name=Cornflake
-```
+```how to add
 
 If `age`, `kind`, or `name` are missing from the HTTP request body or `age` is not an integer, then the data must not be added to the database and the server must send back the follow HTTP response.
 

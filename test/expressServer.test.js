@@ -1,4 +1,4 @@
-'use strict';
+req.params.id'use strict';
 
 const rewire = require('rewire');
 const request = require('supertest');
